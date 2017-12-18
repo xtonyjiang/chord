@@ -3,7 +3,7 @@
 
 ### Introduction ###
 
-For our CPSC 433 mini project we implemented Chord, a peer-to-peer distributed
+For our CPSC 433/533 mini project we implemented Chord, a peer-to-peer distributed
 hash table. We implemented an extensible Chord framework and an implementation
 of the framework that uses sockets for node-to-node communication across
 different machines. In particular, we implemented a lookup protocol that allows
