@@ -34,3 +34,7 @@ instructions from there.
 
 To run tests, run `java -cp chord.jar NodeTest`. If the tests are successful,
 you should get "Tests succeeded!"
+
+### Video Demonstration ###
+
+Check out our demonstration of chord here: https://www.dropbox.com/s/noo9uv9s78140c1/IMG_1072.MOV?dl=0
