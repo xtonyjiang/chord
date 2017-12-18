@@ -1,4 +1,4 @@
-# CPSC 433 Mini Project: Chord #
+# CPSC 433/533 Mini Project: Chord #
 ## Tony Jiang and Ian Zhou ##
 
 ### Introduction ###
