@@ -1,7 +1,5 @@
-================================================================================
-CPSC 433 Mini Project: Chord
-Tony Jiang and Ian Zhou
-================================================================================
+* CPSC 433 Mini Project: Chord *
+** Tony Jiang and Ian Zhou **
 
 1) Introduction
 For our CPSC 433 mini project we implemented Chord, a peer-to-peer distributed 
