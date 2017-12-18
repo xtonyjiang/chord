@@ -2,7 +2,7 @@ import java.io.*;
 import java.net.*;
 import java.util.*;
 
-/* 
+/*
  * NodeProgram
  * Program for creating nodes and inputting commands.
  */
@@ -114,7 +114,7 @@ public class NodeProgram {
 				Long getValue;
 				String getValueString;
 				long putValue;
-			
+
 				// send message over socket
 				switch (info[0]) {
 					case "create":
@@ -181,14 +181,13 @@ public class NodeProgram {
 
 		System.out.println("Shutting down...");
 
-		// TODO: potential problems with closing many nodes at once???
-		// close all open nodes		
+		// close all open nodes
 		String msg = String.format("%s\r\n", Node.LEAVE);
 		for (int localport : activePorts) {
 			try (Socket s = new Socket(localhost, localport);) {
 				// open socket and set up socket output stream
 				DataOutputStream sdos = Utils.getOutputStream(s);
-				
+
 				// tell node to leave
 				sdos.writeBytes(msg);
 				sdos.flush();

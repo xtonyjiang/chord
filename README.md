@@ -3,11 +3,13 @@
 
 ### Introduction ###
 
-For our CPSC 433 mini project we implemented Chord, a peer-to-peer distributed 
-hash table. In particular, we implemented a lookup protocol that allows users
-to query any node about which node owns a particular key, and a distributed hash
-table protocol for getting and putting key/value pairs, where the key and values
-are longs.
+For our CPSC 433 mini project we implemented Chord, a peer-to-peer distributed
+hash table. We implemented an extensible Chord framework and an implementation
+of the framework that uses sockets for node-to-node communication across
+different machines. In particular, we implemented a lookup protocol that allows
+users to query any node about which node owns a particular key, and a
+distributed hash table protocol for getting and putting key/value pairs, where
+the key and values are longs.
 
 ### Files ###
 
@@ -37,4 +39,5 @@ you should get "Tests succeeded!"
 
 ### Video Demonstration ###
 
-Check out our demonstration of chord here: https://www.dropbox.com/s/noo9uv9s78140c1/IMG_1072.MOV?dl=0
+Check out our demonstration of chord here:
+https://www.dropbox.com/s/noo9uv9s78140c1/IMG_1072.MOV?dl=0
