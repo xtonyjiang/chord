@@ -29,8 +29,8 @@ We organized our source code in the following way:
 
 ### How to Run ###
 
-To run the program, run `java -jar chord.jar` and follow the instructions from
-there.
+To run the program, run `java -cp chord.jar NodeProgram` and follow the
+instructions from there.
 
 To run tests, run `java -cp chord.jar NodeTest`. If the tests are successful,
 you should get "Tests succeeded!"
